@@ -15,7 +15,7 @@ print("element terakhir =",my_list_a[-1])
 
 ### Outputnya:
 
-![Alt text](latihan1-1.png)
+<img src="latihan/latihan1.png">
 
 ### Ubah elemen list:
 * Ubah elemen ke 4 dengan nilai lainnya
@@ -33,7 +33,7 @@ print("list =", my_list_a )
 
 ### Outputnya:
 
-![Alt text](latihan2.png)
+<img src="latihan/latihan2.png">
 
 ### Tambah elemen list:
 * Ambil 2 bagian dari list pertama (A) dan jadikan list ke 2 (B)
@@ -56,7 +56,7 @@ print("List C =", my_list_c)
 
 ### Outputnya :
 
-<img src="latihan3.png">
+<img src="latihan/latihan3.png">
 
 ### Output dari semua latihan diatas:
 
@@ -71,7 +71,7 @@ print("List C =", my_list_c)
 
 ## Flowchartnya:
 
-![Alt text](flowchart.9.png)
+<img src
 
 ## Programnya:
 python
@@ -117,4 +117,4 @@ print("+----+-----------------------+--------+--------+-------+-------+---------
 ```
 ### Outputnya:
 
-![Alt text](praktikum9.png)
+<img src="Tugas_4/flowchart.9.png">
