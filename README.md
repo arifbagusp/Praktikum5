@@ -6,8 +6,8 @@
 * Ambil elemen terakhir
 
 ## Programnya
-    ```python
-# akses list
+    python
+    # akses list
     my_list_a =[1, 5, 6, 8, 7]
     print("element ke 3 =", my_list_a[3])
     print("element ke 2 sampai ke 4 =", my_list_a[2:4])
@@ -22,14 +22,14 @@
 * Ubah elemen ke 4 sampai dengan elemen terakhir
 
 ## Programnya
-python
-# ubah elemen list
-my_list_a =[1, 5, 6, 8, 7]
-my_list_a[2] = 3
-my_list_a[3:4] = [5, 4]
+    python
+    # ubah elemen list
+    my_list_a =[1, 5, 6, 8, 7]
+    my_list_a[2] = 3
+    my_list_a[3:4] = [5, 4]
 
-print("list =", my_list_a )
-print("list =", my_list_a )
+    print("list =", my_list_a )
+    print("list =", my_list_a )
 
 ### Outputnya:
 
@@ -42,17 +42,17 @@ print("list =", my_list_a )
 * Gabungkan list B dengan list A
 
 ## Programnya
-python
-# tambah elemen list
-my_list_a =[1, 5, 6, 8, 7]
-my_list_b = my_list_a[0:2]
-my_list_b.append("Hello")
-my_list_b.extend([1, 2, 3])
-my_list_c = my_list_a + my_list_b
+    python
+    # tambah elemen list
+    my_list_a =[1, 5, 6, 8, 7]
+    my_list_b = my_list_a[0:2]
+    my_list_b.append("Hello")
+    my_list_b.extend([1, 2, 3])
+    my_list_c = my_list_a + my_list_b
 
-print("List A =", my_list_a)
-print("List B =", my_list_b)
-print("List C =", my_list_c)
+    print("List A =", my_list_a)
+    print("List B =", my_list_b)
+    print("List C =", my_list_c)
 
 ### Outputnya :
 
@@ -74,19 +74,19 @@ print("List C =", my_list_c)
 <img src="Tugas_4/flowchart.9.png">
 
 ## Programnya:
-python
-# LIST
-nama = []
-nim = []
-nilaiTugas = []
-nilaiUTS = []
-nilaiUAS = []
-nilaiAkhir = []
+    python
+    # LIST
+    nama = []
+    nim = []
+    nilaiTugas = []
+    nilaiUTS = []
+    nilaiUAS = []
+    nilaiAkhir = []
 
-print()
+    print()
 
-# Input
-while True:
+    # Input
+    while True:
     nama.append(input("Masukan Nama : "))
     nim.append(input("Masukan NIM  : "))
     Tugas = int(input("Nilai Tugas  : ")); 
@@ -105,16 +105,16 @@ while True:
         break
 
 # Output
-print("+----+-----------------------+--------+--------+-------+-------+---------+")
-print("| {0:^2} | {1:^18} | {2:^9} | {3:^6} | {4:^5} | {5:^5} | {6:^7} |".format("No", "Nama", "NIM", "Tugas", "UTS", "UAS", "Akhir"))
-print("-----+-----------------------+--------+--------+-------+-------+---------+")
+    print("+----+-----------------------+--------+--------+-------+-------+---------+")
+    print("| {0:^2} | {1:^18} | {2:^9} | {3:^6} | {4:^5} | {5:^5} | {6:^7} |".format("No", "Nama", "NIM", "Tugas", "UTS", "UAS", "Akhir"))
+    print("-----+-----------------------+--------+--------+-------+-------+---------+")
 
-no = 0
-for nama, nim, Tugas, UTS, UAS, nilaiAkhir in zip(nama, nim, nilaiTugas, nilaiUTS, nilaiUAS, nilaiAkhir):
-    no += 1    
-    print("| {0:>2} | {1:<18} | {2:>8} | {3:>6} | {4:>5} | {5:>5} | {6:>7} |".format(no, nama, nim, Tugas, UTS, UAS, nilaiAkhir))
-print("+----+-----------------------+--------+--------+-------+-------+---------+")
-```
-### Outputnya:
+    no = 0
+    for nama, nim, Tugas, UTS, UAS, nilaiAkhir in zip(nama, nim, nilaiTugas, nilaiUTS, nilaiUAS, nilaiAkhir):
+        no += 1    
+        print("| {0:>2} | {1:<18} | {2:>8} | {3:>6} | {4:>5} | {5:>5} | {6:>7} |".format(no, nama, nim, Tugas, UTS, UAS, nilaiAkhir))
+    print("+----+-----------------------+--------+--------+-------+-------+---------+")
+    ```
+    ### Outputnya:
 
 <img src="Tugas_4/flowchart.9.png">
