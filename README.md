@@ -117,4 +117,4 @@
 ``````
     ### Outputnya:
 
-<img src="Tugas_4/flowchart.9.png">
+<img src="Tugas_4/praktikum9.png">
