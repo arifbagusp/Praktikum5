@@ -1,4 +1,3 @@
-# Praktikum5# praktikum5
 # Latihan 9 Bahasa Pemrograman
 ## Buat sebuah list sebanyak 5 elemen dengan nilai bebas
 ### Akses list:
