@@ -56,7 +56,7 @@ print("List C =", my_list_c)
 
 ### Outputnya :
 
-![Alt text](latihan3.png)
+<img src="latihan3.png">
 
 ### Output dari semua latihan diatas:
 
