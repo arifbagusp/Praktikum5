@@ -6,13 +6,13 @@
 * Ambil elemen terakhir
 
 ## Programnya
-    python
+``````    python
     # akses list
-    my_list_a =[1, 5, 6, 8, 7]
+     my_list_a =[1, 5, 6, 8, 7]
     print("element ke 3 =", my_list_a[3])
     print("element ke 2 sampai ke 4 =", my_list_a[2:4])
     print("element terakhir =",my_list_a[-1])
-
+``````
 ### Outputnya:
 
 <img src="latihan/latihan1.png">
@@ -22,7 +22,7 @@
 * Ubah elemen ke 4 sampai dengan elemen terakhir
 
 ## Programnya
-    python
+ ``````   python
     # ubah elemen list
     my_list_a =[1, 5, 6, 8, 7]
     my_list_a[2] = 3
@@ -30,7 +30,7 @@
 
     print("list =", my_list_a )
     print("list =", my_list_a )
-
+``````
 ### Outputnya:
 
 <img src="latihan/latihan2.png">
@@ -42,7 +42,7 @@
 * Gabungkan list B dengan list A
 
 ## Programnya
-    python
+``````   python
     # tambah elemen list
     my_list_a =[1, 5, 6, 8, 7]
     my_list_b = my_list_a[0:2]
@@ -53,7 +53,7 @@
     print("List A =", my_list_a)
     print("List B =", my_list_b)
     print("List C =", my_list_c)
-
+``````
 ### Outputnya :
 
 <img src="latihan/latihan3.png">
@@ -74,7 +74,7 @@
 <img src="Tugas_4/flowchart.9.png">
 
 ## Programnya:
-    python
+``````    python
     # LIST
     nama = []
     nim = []
@@ -114,7 +114,7 @@
         no += 1    
         print("| {0:>2} | {1:<18} | {2:>8} | {3:>6} | {4:>5} | {5:>5} | {6:>7} |".format(no, nama, nim, Tugas, UTS, UAS, nilaiAkhir))
     print("+----+-----------------------+--------+--------+-------+-------+---------+")
-    ```
+``````
     ### Outputnya:
 
 <img src="Tugas_4/flowchart.9.png">
