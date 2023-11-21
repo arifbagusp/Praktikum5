@@ -71,7 +71,7 @@ print("List C =", my_list_c)
 
 ## Flowchartnya:
 
-<img src
+<img src="Tugas_4/flowchart.9.png">
 
 ## Programnya:
 python
